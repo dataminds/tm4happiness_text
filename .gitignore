@@ -3,8 +3,11 @@
 .Rapp.history
 
 # Session Data files
-.RData
-.RDataTmp
+*.RData
+*.rds
+*.xlsx
+*.xls
+data/
 
 # User-specific files
 .Ruserdata
@@ -20,6 +23,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -39,11 +43,12 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
+# Others
+/articles
+/old
+/oldcode
 
-# translation temp files
-po/*~
+/.quarto/
 
-# RStudio Connect folder
-rsconnect/
+
+
